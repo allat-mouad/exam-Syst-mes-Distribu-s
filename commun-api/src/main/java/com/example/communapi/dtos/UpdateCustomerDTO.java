@@ -1,0 +1,17 @@
+package com.example.communapi.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class UpdateCustomerDTO {
+    private String name;
+    private String email;
+    private String address;
+    private String phone;
+}
